@@ -3,6 +3,11 @@ import * as $ from 'jquery';
 import { ItemAddResult, ItemUpdateResult } from 'sp-pnp-js/lib/pnp';
 import { validateForm } from './validation';
 
+declare var google;
+
+const input = document.getElementById('address');
+new google.maps.places.Autocomplete(input, null);
+
 interface PersonalDetailsSubmission {
   Title: string;
   Name: string;

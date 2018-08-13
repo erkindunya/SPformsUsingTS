@@ -6,6 +6,7 @@
 
 <asp:Content ContentPlaceholderID="PlaceHolderAdditionalPageHead" runat="server">
     <link href="./css/main.css" rel="stylesheet" />
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAO9pGWi47MCCysw9PZWi9FW85mGXYh9aw&libraries=places"></script>
 </asp:content>
 <asp:content ContentPlaceholderID="PlaceHolderMain" runat="server">
 
@@ -31,7 +32,7 @@
           <legend class="col-xs-12">Change of address</legend>
           <div class="form-group col-xs-12">
             <label for="address">New Address</label>
-            <textarea class="form-control" id="address"> </textarea>
+            <input type="text" class="form-control" id="address">
           </div>
           <div class="form-group col-xs-12 col-md-4">
             <label for="postcode">New Postcode</label>
