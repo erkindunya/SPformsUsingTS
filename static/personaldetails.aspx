@@ -30,19 +30,39 @@
 
         <fieldset>
           <legend class="col-xs-12">Change of address</legend>
-          <div class="form-group col-xs-12">
-            <label for="address">New Address</label>
-            <input type="text" class="form-control" id="address">
+          <div class="form-group col-xs-12 col-md-4">
+            <label for="address-line-1">Address Line 1</label>
+            <input type="text" class="form-control" id="address-line-1">
           </div>
           <div class="form-group col-xs-12 col-md-4">
-            <label for="postcode">New Postcode</label>
+            <label for="address-line-2">Address Line 2</label>
+            <input type="text" class="form-control" id="address-line-2">
+          </div>
+          <div class="form-group col-xs-12 col-md-4">
+            <label for="address-line-3">Address Line 3</label>
+            <input type="text" class="form-control" id="address-line-3">
+          </div>
+          <div class="form-group col-xs-12 col-md-3">
+            <label for="town-city">Town / City</label>
+            <input type="text" class="form-control" id="town-city">
+          </div>
+          <div class="form-group col-xs-12 col-md-3">
+            <label for="county">County</label>
+            <input type="text" class="form-control" id="county">
+          </div>
+          <div class="form-group col-xs-12 col-md-3">
+            <label for="postcode">Postcode</label>
             <input type="text" class="form-control" id="postcode">
           </div>
-          <div class="form-group col-xs-12 col-md-4">
-            <label for="telephone-number">New Telephone Number</label>
+          <div class="form-group col-xs-12 col-md-3">
+            <label for="country">Country</label>
+            <input type="text" class="form-control" id="country">
+          </div>
+          <div class="form-group col-xs-12 col-md-6">
+            <label for="telephone-number">Telephone Number</label>
             <input type="text" class="form-control" id="telephone-number">
           </div>
-          <div class="form-group col-xs-12 col-md-4">
+          <div class="form-group col-xs-12 col-md-6">
             <label for="personal-email">Personal Email</label>
             <input type="email" class="form-control" id="personal-email">
           </div>
@@ -59,10 +79,35 @@
             <label for="emergency-name">Name</label>
             <input type="text" class="form-control" id="emergency-name">
           </div>
-          <div class="form-group col-xs-12">
-            <label for="emergency-address">Address</label>
-            <textarea class="form-control" id="emergency-address"></textarea>
+          <div class="form-group col-xs-12 col-md-4">
+            <label for="emergency-address-line-1">Address Line 1</label>
+            <input type="text" class="form-control" id="emergency-address-line-1">
           </div>
+          <div class="form-group col-xs-12 col-md-4">
+            <label for="emergency-address-line-2">Address Line 2</label>
+            <input type="text" class="form-control" id="emergency-address-line-2">
+          </div>
+          <div class="form-group col-xs-12 col-md-4">
+            <label for="emergency-address-line-3">Address Line 3</label>
+            <input type="text" class="form-control" id="emergency-address-line-3">
+          </div>
+          <div class="form-group col-xs-12 col-md-3">
+            <label for="emergency-town-city">Town / City</label>
+            <input type="text" class="form-control" id="emergency-town-city">
+          </div>
+          <div class="form-group col-xs-12 col-md-3">
+            <label for="emergency-county">County</label>
+            <input type="text" class="form-control" id="emergency-county">
+          </div>
+          <div class="form-group col-xs-12 col-md-3">
+            <label for="emergency-postcode">Postcode</label>
+            <input type="text" class="form-control" id="emergency-postcode">
+          </div>
+          <div class="form-group col-xs-12 col-md-3">
+            <label for="emergency-country">Country</label>
+            <input type="text" class="form-control" id="emergency-country">
+          </div>
+          <div class="clearfix"></div>
           <div class="form-group col-xs-12">
             <label for="emergency-relationship">Relationship to you</label>
             <select class="form-control" id="emergency-relationship">
