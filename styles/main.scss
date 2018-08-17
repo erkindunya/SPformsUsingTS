@@ -1,6 +1,17 @@
 
+
+label {
+  line-height: 1.9em;
+}
+
 .completed-panel {
   display: none;
+}
+
+.form-title {
+  font-size: 40px;
+  margin-bottom: 30px;
+  color: #e2231a;
 }
 
 .sp-peoplepicker-topLevel {
@@ -22,8 +33,23 @@
 
 .sp-peoplepicker-initialHelpText {
   top: auto;
+  left: 10px;
 }
 
 .error-message {
   visibility: hidden;
+}
+
+.question-header {
+  color: #fff;
+  background: #008296;
+  padding: 10px;
+  line-height: 1.1em;
+  font-size: 20px;
+  border-bottom: none;
+}
+
+.spacer {
+  height: 20px;
+  clear: both;
 }

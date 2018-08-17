@@ -41,6 +41,18 @@ const saveForm = (submission: ReturnToWorkSubmission) => {
     });
 };
 
+$(document).ready(() => {
+  if ($(window).width() >= 1000) {
+    let minHeight = 0;
+    $('.matchH').each(function () {
+      if ($(this).height() > minHeight)
+        minHeight = $(this).height();
+    });
+
+    $('.matchH').height(minHeight);
+  }
+});
+
 
 $(document).on('click','#submitReturnToWork', async () => {
 
